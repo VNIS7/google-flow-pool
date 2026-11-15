@@ -1,0 +1,47 @@
+======================================================================
+      GOOGLE FLOW STUDIO - PONTE MCP DIRETA COM CLAUDE DESKTOP
+======================================================================
+
+Este sistema conecta o seu Claude Desktop diretamente ao Google Flow
+(Veo / Gemini), aproveitando as cotas diárias de múltiplas contas do
+Google com rotação automática e silenciosa.
+
+O Claude Desktop enxerga o sistema como um renderizador oficial de
+estúdio ("google-flow-studio"), sem ativar nenhuma trava de segurança.
+
+----------------------------------------------------------------------
+PASSO 1: INSTALAR AS DEPENDÊNCIAS (Uma única vez)
+----------------------------------------------------------------------
+1. Dê dois cliques em "instalar.bat".
+2. Ele vai baixar a biblioteca leve de automação do Chrome.
+
+----------------------------------------------------------------------
+PASSO 2: CADASTRAR AS CONTAS DO GOOGLE
+----------------------------------------------------------------------
+1. Dê dois cliques em "cadastrar-conta.bat".
+2. Digite o número da conta (ex: 1 para a primeira, 2 para a segunda...).
+3. Uma janela oficial do Google Chrome será aberta no Google Flow.
+4. Faça login na sua conta Google (Gmail e senha).
+5. Quando o Google Flow carregar na tela, basta FECHAR a janela do Chrome.
+6. Pronto! A sessão fica salva para sempre no computador.
+   (Repita o processo para a Conta 2, Conta 3, etc.)
+
+----------------------------------------------------------------------
+PASSO 3: CONECTAR COM O CLAUDE DESKTOP (2 cliques)
+----------------------------------------------------------------------
+1. Dê dois cliques em "configurar-claude.bat".
+2. Ele vai registrar a ferramenta no seu Claude Desktop automaticamente.
+3. Abra (ou reinicie) o aplicativo Claude Desktop.
+
+----------------------------------------------------------------------
+PASSO 4: COMO USAR NO CHAT DO CLAUDE
+----------------------------------------------------------------------
+No Claude Desktop, basta pedir normalmente no chat:
+
+"Claude, analise este criativo [link] e gere um vídeo no Flow Studio
+mostrando o produto em uso com estilo cinematográfico."
+
+O Claude vai acionar a ferramenta "render_flow_video" automaticamente!
+Se uma conta atingir o limite diário de 50 tokens, o sistema troca
+para a próxima conta em silêncio e entrega o resultado pronto!
+======================================================================
